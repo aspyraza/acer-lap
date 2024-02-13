@@ -403,55 +403,79 @@
 // }
 
 
-let n=7;
+// let n=7;
 
 
-for(let row=1;row<=n;row++){
-     for(let col=1;col<=n;col++){
-          if(row==1){
-               if(col<=5){
-                    process.stdout.write("* ")
-               }
-               else{
-                    process.stdout.write("\t")
-               }
+// for(let row=1;row<=n;row++){
+//      for(let col=1;col<=n;col++){
+//           if(row==1){
+//                if(col<=5){
+//                     process.stdout.write("* ")
+//                }
+//                else{
+//                     process.stdout.write("\t")
+//                }
 
-          }
-          else if(row<4){
-               if(col==1){
-                    process.stdout.write("*")
-               }
-               else{
-                    process.stdout.write("\t")
-               }
+//           }
+//           else if(row<4){
+//                if(col==1){
+//                     process.stdout.write("*")
+//                }
+//                else{
+//                     process.stdout.write("\t")
+//                }
 
-          }
-          else if(row==4){
-               if(col<=5){
-                    process.stdout.write("* ")
-               }
-               else{
-                    process.stdout.write("\t")
-               }
+//           }
+//           else if(row==4){
+//                if(col<=5){
+//                     process.stdout.write("* ")
+//                }
+//                else{
+//                     process.stdout.write("\t")
+//                }
 
-          }
-          else if(row<7){
-               if(col==1){
-                    process.stdout.write("*")
-               }
-               else{
-                    process.stdout.write("\t")
-               }
+//           }
+//           else if(row<7){
+//                if(col==1){
+//                     process.stdout.write("*")
+//                }
+//                else{
+//                     process.stdout.write("\t")
+//                }
 
-          }else{
-               if(col==1){
-                    process.stdout.write("*\t")
-               }
-               else{
-                    process.stdout.write("\t")
-               }
+//           }else{
+//                if(col==1){
+//                     process.stdout.write("*\t")
+//                }
+//                else{
+//                     process.stdout.write("\t")
+//                }
 
-          }
-     }
-     console.log()
+//           }
+//      }
+//      console.log()
+// }
+
+
+// function sayhello(){
+//     console.log("hello")
+// }
+// sayhello();
+
+// let a=function hellobro(){
+//    console.log("bro bro")
+//    console.log("no sir ")
+// }
+// a();
+
+function sayoye(name,age){
+    console.log("gm ",name)
+    console.log("gm ",age)
 }
+sayoye("aspy",21);
+
+let x=function(name){
+    console.log("good ",name);
+    console.log("good ",name);
+}
+x("raza");
